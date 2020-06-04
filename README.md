@@ -12,3 +12,5 @@ But I have been unable to get a working application in the binary crate in `apps
 ## Additional details
 
 I am working with a mysql database, so the migrations in dbstuff reflect that. Also will be using numeric/bigdecimal features, which I have included here because prior attempts to resolve have (seemingly) been blocked by that.
+
+Here is a link to a Rust users forum post about this: https://users.rust-lang.org/t/difficulty-with-re-use-of-diesel-schema-and-models/43824
