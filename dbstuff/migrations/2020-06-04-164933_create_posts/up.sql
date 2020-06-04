@@ -1,0 +1,7 @@
+CREATE TABLE `post` (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  body TEXT COLLATE utf8_unicode_ci NOT NULL,
+  value DECIMAL(11,8) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`)
+)
